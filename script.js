@@ -48,7 +48,7 @@ do{
             break
 
         case '4':
-            let biggerBaseTrape = promtp('Qual o tamanho da base maior do trapézio?')
+            let biggerBaseTrape = prompt('Qual o tamanho da base maior do trapézio?')
             let smallerBaseTrape = prompt('Qual o tamanaho da base menor do trapézio?')
             let highTrape = prompt('Qual o tamanho da altura do trapézio?')
             alert('A área do trapézio é ' + trapezium(biggerBaseTrape, smallerBaseTrape, highTrape))
