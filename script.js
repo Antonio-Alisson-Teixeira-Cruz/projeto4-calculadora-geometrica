@@ -11,7 +11,7 @@ function square(side){
 }
 
 function trapezium(biggerBase, smallerBase, high){
-    return (biggerBase+smallerBase)*high/2
+    return ((biggerBase+smallerBase)*high)/2
 }
 
 function circle(radius){
